@@ -4,7 +4,9 @@ import { UserAuth } from '../context/AuthContext'
 
 const Signin = () => {
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  // eslint-disable-next-line
+  const [password, setPassword] = useState(''); 
+  // eslint-disable-next-line  
   const [error, setError] = useState('')
   const navigate = useNavigate
 
